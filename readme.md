@@ -13,7 +13,7 @@ Instale por meio do npm:
 # Exemplo
 
 ```typescript
-import NubankJS from 'nubank.js';
+import NubankJS from '@bezouro/nubank.js';
 import path from 'path';
 import fs from 'fs';
 
