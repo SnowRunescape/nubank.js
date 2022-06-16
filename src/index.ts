@@ -170,7 +170,7 @@ export default class NubankJS implements INubankJS {
     }
   }
 
-  async transferOutPix(account: string, value: number) {
+  async transferOutPix(account: string, value: number, cardPassword: string) {
     let response = await this.transferOutInit(account, value);
     const proof = response.headers['www-authenticate'].substring(18, 458);
 
@@ -181,7 +181,7 @@ export default class NubankJS implements INubankJS {
   
     response = await this.NubankPostRequest(`${this.NUBANK_TRANSFERAUTH_HOST}api/customers/${this.accountId}/unencrypted-lift`, {
       acl: [],
-      input: String(process.env.NUBANK_CARD_PASSWORD),
+      input: cardPassword,
       proof
     });
   
