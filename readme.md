@@ -4,7 +4,7 @@ Realize operações que você faz no app do nubank pelo node.js Baseado na ([ver
 ## Instalação
 Instale por meio do npm:
 
-`npm install nubank.js`
+`npm install @bezouro/nubank.js`
 
 > AVISO: Este não é um modulo oficial de Nu Pagamentos S.A, Este modulo utiliza da [API Publica do Nubank](https://twitter.com/nubank/status/766665014161932288)
 
