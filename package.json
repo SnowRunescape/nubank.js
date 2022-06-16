@@ -1,6 +1,6 @@
 {
   "name": "@bezouro/nubank.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Nubank api module for node.js",
   "readmeFilename": "README.md",
   "main": "dist/index.js",
