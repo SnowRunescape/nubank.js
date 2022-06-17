@@ -18,6 +18,7 @@ Para gerar o certificado necessario para autenticar com o nubank, após adiciona
 >AVISO: tome cuidado com o certificado, usuario e senha da sua conta, não commite-os no github
 # Exemplo de uso
 Você pode encontrar mais exemplos [Aqui](/examples/)
+
 Para rodar o exemplo a baixo, é necessario fazer uma validação adicional no certificado para que ele possa realizar transferencias e outras operações que movimentam o saldo na conta, Ações como verificar saldo, gerar e conferir pagamentos pix entre outros que apenas verificam informações na conta não requerem isso e podem ser executadas normalmente com o certificado gerado pelo comando `nubankjs create-cert`
 
 ```typescript
