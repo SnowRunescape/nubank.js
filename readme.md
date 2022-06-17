@@ -1,5 +1,5 @@
 # Nubank.JS
-Realize operações que você faz no app do nubank pelo node.js Baseado na ([versão python](https://github.com/Astrocoders/nubank-api) que é baseada nessa outra [versão js](https://github.com/Astrocoders/nubank-api))
+Realize operações que você faz no app do nubank pelo node.js Baseado na ([versão python](https://github.com/andreroggeri/pynubank/) que é baseada nessa outra [versão js](https://github.com/Astrocoders/nubank-api))
 
 ## Instalação
 Instale usando o seu gerenciador de pacotes preferido:
